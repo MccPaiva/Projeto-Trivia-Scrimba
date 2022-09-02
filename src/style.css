@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Karla";
+  src: local("Karla-VariableFont_wght"),
+  url("./fonts/Karla-VariableFont_wght.ttf") format("truetype");
+}
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla";
+}
+
+html, body, #root, .App{
+  height: 100%;
+  background-color: var(--clr-light-background);
+}
+
+:root{
+  font-size: 10px;
+
+  --clr-light-font: #293264;
+  --clr-light-button: #4D5B9E;
+  --clr-light-selected: #D6DBF5;
+  --clr-light-right: #94D7A2;
+  --clr-light-wrong: #F8BCBC;
+  --clr-light-background: #F5F7FB;
+
+  --clr-dark-font: #F5F7FB;
+}
+
+main{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--clr-light-background);
+}
+
+.page-button{
+  background-color: var(--clr-light-button);
+  color: var(--clr-light-background);
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover{
+  filter: brightness(1.1);
+}
+
+.start-screen button{
+  font-size: 2.5rem;
+  padding: 2rem 7rem;
+}
+.quiz-screen > div button{
+  font-size: 1.5rem;
+  padding: 1.5rem 3.5rem;
+}
+
+.quiz-screen > div span{
+  font-size: 2rem;
+  color: var(--clr-light-font);
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.start-screen > div > h1{
+  font-size: 5rem;
+  color: var(--clr-light-font);
+  margin-bottom: 3rem;
+  cursor: default;
+}
+
+.quiz-screen > div{
+  padding-top: 5rem;
+}
+
+.question-container{
+  text-align: left;
+}
+
+.question{
+  color: var(--clr-light-font);
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.answers{
+  padding-bottom: 5rem;
+}
+
+.answers button{
+  background-color: var(--clr-light-background);
+  color: var(--clr-light-button);
+  border: 2px solid var(--clr-light-button);
+  font-weight: bold;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-right: 2rem;
+}
+
+.selected{
+  background-color: var( --clr-light-selected) !important;
+}
+
+.right-answer{
+  background-color: var( --clr-light-right) !important;
+}
+
+.wrong-answer{
+  background-color: var( --clr-light-wrong) !important;
+}
