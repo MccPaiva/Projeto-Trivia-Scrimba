@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/trivia/static/css/main.28f48042.css",
+    "main.js": "/trivia/static/js/main.c0895eb3.js",
+    "static/media/Karla-VariableFont_wght.ttf": "/trivia/static/media/Karla-VariableFont_wght.e7cdc609f35daffcb788.ttf",
+    "index.html": "/trivia/index.html",
+    "main.28f48042.css.map": "/trivia/static/css/main.28f48042.css.map",
+    "main.c0895eb3.js.map": "/trivia/static/js/main.c0895eb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28f48042.css",
+    "static/js/main.c0895eb3.js"
+  ]
+}
