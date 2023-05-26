@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/trivia/static/css/main.28f48042.css",
-    "main.js": "/trivia/static/js/main.c0895eb3.js",
-    "static/media/Karla-VariableFont_wght.ttf": "/trivia/static/media/Karla-VariableFont_wght.e7cdc609f35daffcb788.ttf",
-    "index.html": "/trivia/index.html",
-    "main.28f48042.css.map": "/trivia/static/css/main.28f48042.css.map",
-    "main.c0895eb3.js.map": "/trivia/static/js/main.c0895eb3.js.map"
+    "main.css": "/Projeto-Trivia-Scrimba/static/css/main.66b8d255.css",
+    "main.js": "/Projeto-Trivia-Scrimba/static/js/main.2f6b2de7.js",
+    "static/media/Karla-VariableFont_wght.ttf": "/Projeto-Trivia-Scrimba/static/media/Karla-VariableFont_wght.e7cdc609f35daffcb788.ttf",
+    "index.html": "/Projeto-Trivia-Scrimba/index.html",
+    "main.66b8d255.css.map": "/Projeto-Trivia-Scrimba/static/css/main.66b8d255.css.map",
+    "main.2f6b2de7.js.map": "/Projeto-Trivia-Scrimba/static/js/main.2f6b2de7.js.map"
   },
   "entrypoints": [
-    "static/css/main.28f48042.css",
-    "static/js/main.c0895eb3.js"
+    "static/css/main.66b8d255.css",
+    "static/js/main.2f6b2de7.js"
   ]
 }
